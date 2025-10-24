@@ -2,7 +2,6 @@ import { Injectable } from '@nestjs/common';
 import { DatabaseService } from '../database/database.service';
 import { Prisma } from '@prisma/client';
 
-
 @Injectable()
 export class ProductsService {
   constructor(private readonly databaseService: DatabaseService) {}
